@@ -1,0 +1,19 @@
+This is a perl script to show the rowcount and size of a table in Postgres.
+
+Requirements: DBI, DBD::Pg
+
+
+Usage: pg_rowcount.pl <database> <schema>
+
+Output:
+Table                                Rows                 Size
+--------------------------------------------------------------
+pg_statistic                         1853              1672 kB
+pg_type                               910               168 kB
+pg_attribute                         9569              1488 kB
+pg_class                             1371               416 kB
+pg_authid                              52                16 kB
+pg_index                              766               112 kB
+pg_operator                           705               104 kB
+pg_database                            44                16 kB
+[...] 
